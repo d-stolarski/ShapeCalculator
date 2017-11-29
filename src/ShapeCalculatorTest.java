@@ -15,5 +15,10 @@ public class ShapeCalculatorTest {
         Triangle triangle1 = new Triangle(3.0 , 1.5 , 2.2);
         System.out.printf("\nObwód trójkąta: %.2f", sc.trianglePerimeter(triangle1));
 
+        System.out.printf("\nPole kwadratu: %.2f" , square1.calculateArea(3.0));
+        System.out.printf("\nPole prostokąta: %.2f" , rectangle1.calculateArea(4.2, 6.2));
+        System.out.printf("\nPole trójkąta: %.2f" , triangle1.calculateArea(2.2, 3.6));
+        System.out.printf("\nObwód koła: %.2f" , circle1.calculateArea(2.0));
+
     }
 }
